@@ -1,0 +1,186 @@
+﻿article,
+aside,
+figcaption,
+figure,
+footer,
+header,
+main,
+nav,
+section {
+	display: block;
+}
+
+html {
+-ms-text-size-adjust: 100%;
+-webkit-text-size-adjust: 100%;
+}
+body {
+	background-color: rgb(42,92,192);
+	background-color: rgba(42,92,192,0.6);
+}
+.container {
+	margin: 0 auto;
+	padding: .5em 1em 1em 1em;
+	width: 42em;
+	height: 42em;
+}
+
+header {
+	background-image: url(../../img/header-01.jpg);
+	background-size: 100% 100%;
+	width: 420px;
+	height: 90px;
+	width: 42em;
+	height: 9em;
+	-webkit-box-shadow: 3px 3px 7px #055584;
+	-moz-box-shadow: 3px 3px 7px #055584;
+	box-shadow: 3px 3px 7px #055584;
+}
+
+.main-left {
+	width: 12em;
+	height: 29em;
+	background-color: rgb(242,242,242);
+	background-color: rgba(242,242,242,0.9);
+}
+.main-left ul {
+	padding-top: .25em;
+}
+.main-left li {
+	display: block;
+	font-size: 1.5em;
+	width: 5.5em;
+}
+
+
+.main-left a {
+	display: block;
+	margin: 1.2em 0em 0.6em -0.5em;
+	width: 4.2em;
+	text-decoration: none;
+	color: black;
+	background-color: rgb(192,192,192);
+	background-color: rgba(192,192,192,0.3);
+	padding: 0.5em 0em 0.5em 0.5em;
+	-webkit-box-shadow: 3px 3px 7px #055584;
+	-moz-box-shadow: 3px 3px 7px #055584;
+	box-shadow: 3px 3px 7px #055584;
+}
+.fields {
+	padding: .25em 1em 0em 1em;
+	width: 20em;
+
+	margin: 0 auto;
+}
+.row {
+	padding: 0em 0em 1em 0em;
+}
+
+.btn {
+	display: block;
+	margin: 0 auto;
+}
+.main-right {
+	margin-top: -29em;
+	margin-left: 14em;
+	width: 28em;
+	height: 29em;
+	background-color: rgb(242,242,242);
+	background-color: rgba(242,242,242,0.9);
+}
+.main-right img {
+	margin-left: .9em;
+}
+.service {
+	margin-top: 0em;
+	padding-top: .125em;
+	padding-left: .5em;
+}
+.main-right p {
+	padding-top: 1em;
+	padding-left: 10em;
+}
+.service a {
+	color: red;
+}
+.left-image {
+	margin-top: 1.9em;
+	width: 420px;
+}
+.right-log {
+	margin-top: -18.75em;
+	margin-left: 28em;
+	height: 300px;
+	background-color: rgb(242,242,242);
+	background-color: rgba(242,242,242,0.4);
+}
+
+.login-lable {
+	display: block;
+	padding-bottom: .5em;
+	width: 12em;
+}
+
+.log-href {
+	padding-top: .5em;
+	padding-left: 1.5em;
+}
+
+.back-link {
+	padding-top: .5em;
+}
+.register {
+	background-color: rgb(242,242,242);
+	background-color: rgba(242,242,242,0.4);
+}
+.register form {
+	margin-left: 11em;
+	width: 18em;
+	height: 25em;
+}
+
+.register lable {
+	display: inline-block;
+	padding-top: 1em;
+	padding-bottom: .5em;
+	width: 5em;
+}
+
+
+.withdraw p {
+	margin-left: -2em;
+	padding-top: 1em;
+	padding-left: 1em;
+	width: 22em;
+}
+.withdraw p input{
+	width: 6em;
+	text-align: right;
+}
+
+.transfer {
+
+	padding-top: .5em;
+}
+.transfer p {
+	width: 18em;
+	margin-top: -.125em;
+	margin-left: -8em;
+	padding-top:0em;
+}
+#tout-account {
+	width: 6em;
+}
+#tout-amount {
+	width: 6em;
+	text-align: right;
+}
+.transfer lable{
+	display: inline-block;
+}
+.logs textarea {
+	margin-left: 2.5em;
+}
+.red {
+	color: red;
+}
