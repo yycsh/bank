@@ -39,7 +39,7 @@
 				if (erro != null && !erro.equals(""))
 					out.print("<p class=\"service\"><a>*</a>"+ URLDecoder.decode(erro,"utf-8") +"</p>");
 				%>
-				<input type="submit" value="确认注册" class="btn" />
+				<input  id="reg-submit" type="submit" value="确认注册" class="btn" />
 			</form>
 		</div>
 	</main>
