@@ -126,8 +126,8 @@ header {
 }
 
 .fields {
-	padding: .25em 1em 0em 1em;
-	width: 25em;
+	padding: .25em 0em 0em 1em;
+	width: 26em;
 
 	margin: 0 auto;
 }
@@ -137,7 +137,7 @@ header {
 }
 .register form {
 	margin-left:  12em;
-	width: 25em;
+	width: 26em;
 	height: 25em;
 }
 
@@ -149,6 +149,9 @@ header {
 }
 
 #reg-submit {
+	margin-left: 8em;
+}
+#submit-btn {
 	margin-left: 8em;
 }
 

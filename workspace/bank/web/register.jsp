@@ -5,6 +5,7 @@
 	<meta charset="utf-8" />
 	<link rel="stylesheet" type="text/css" href="common/css/mystyle.css">
 	<title>欢迎注册</title>
+	<script language="JavaScript" src="common/js/register.js"></script>
 </head>
 
 <body>
@@ -26,7 +27,7 @@
 						<input type="text" id="user-real-name" name="userrealname" class="field-large" />
 					</p>
 					<p class="row">
-						<lable for="user-pwd1">密码：</lable>
+						<lable for="user-pwd1">设置密码：</lable>
 						<input type="password" id="user-pwd1" name="userpwd1" class="field-large" />
 					</p>
 					<p class="row">
@@ -39,7 +40,7 @@
 				if (erro != null && !erro.equals(""))
 					out.print("<p class=\"service\"><a>*</a>"+ URLDecoder.decode(erro,"utf-8") +"</p>");
 				%>
-				<input  id="reg-submit" type="submit" value="确认注册" class="btn" />
+				<input  id="reg-submit" type="button" value="确认注册" class="btn" />
 			</form>
 		</div>
 	</main>
