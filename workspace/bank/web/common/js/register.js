@@ -10,7 +10,7 @@
 		removeDisplay(parent_node);
 		var username = username_ob.value;
 		
-		var regx = new RegExp("^[0-9|A-Z|a-z|_]{1,}$");
+		var regx = new RegExp("^[0-9|A-Z|a-z|_]{1,64}$");
 		var is_valid = regx.test(username);
 
 		//判断用户名是否合法
@@ -40,7 +40,7 @@
 			
 		var psw1 = psw_ob1.value;
 		//
-		var regx = new RegExp("^[0-9|A-Z|a-z]{6,}$");
+		var regx = new RegExp("^[0-9|A-Z|a-z]{6,128}$");
 		var is_valid = regx.test(psw1);
 
         //若密码不合法
@@ -72,7 +72,7 @@
 		removeDisplay(parent_node);
 		var psw2 = psw_ob2.value;
 		//
-		var regx = new RegExp("^[0-9|A-Z|a-z]{6,}$");
+		var regx = new RegExp("^[0-9|A-Z|a-z]{6,128}$");
 		var is_same = false;
 		if (psw_ob1.value === psw2)
 			is_same = true;
@@ -122,4 +122,5 @@
 		parent_node.appendChild(em_mark);
 		parent_node.appendChild(em_content);
 	}
+	
 }
