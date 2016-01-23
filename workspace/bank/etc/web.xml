@@ -13,6 +13,10 @@
     <servlet-class>com.bankcore.web.Register</servlet-class>
   </servlet>
   <servlet>
+    <servlet-name>check-name</servlet-name>
+    <servlet-class>com.bankcore.web.ajax.CheckName</servlet-class>
+  </servlet>
+  <servlet>
     <servlet-name>to-deals</servlet-name>
     <servlet-class>com.bankcore.web.ToDeals</servlet-class>
   </servlet>
@@ -46,6 +50,10 @@
   <servlet-mapping>
     <servlet-name>register</servlet-name>
 	<url-pattern>/Register</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>check-name</servlet-name>
+	<url-pattern>/checkname</url-pattern>
   </servlet-mapping>
   <servlet-mapping>
     <servlet-name>to-deals</servlet-name>

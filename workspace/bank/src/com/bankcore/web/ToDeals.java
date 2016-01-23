@@ -15,6 +15,7 @@ public class ToDeals extends HttpServlet {
 		System.out.println("tosave");
 		
 		response.setContentType("text/html");
+		response.setDateHeader("Expires", -1);
 		Cookie[] cookies = request.getCookies();
 		
 		String d = request.getParameter("d").trim();

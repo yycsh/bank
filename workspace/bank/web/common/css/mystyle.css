@@ -68,12 +68,18 @@ header {
 }
 
 .row {
-	padding: 0em 0em 1em 0em;
+	padding: 0em 0em .25em 0em;
 }
 
 .btn {
 	display: block;
 	margin: 0 auto;
+}
+.logbtn {
+	display: block;
+	width: 13em;
+	margin-top: 3em;
+	margin-left: 1.2em;
 }
 .main-right {
 	margin-top: -29em;
@@ -125,10 +131,19 @@ header {
 	padding-top: .5em;
 }
 
-.fields {
-	padding: .25em 0em 0em 1em;
+.regfields {
+	padding: 1.25em 0em 0em 1em;
 	width: 26em;
-
+	margin: 0 auto;
+}
+.loginfields {
+	padding: .75em 0em 0em 1em;
+	width: 26em;
+	margin: 0 auto;
+}
+.fields {
+	padding: .5em 0em 0em 1em;
+	width: 26em;
 	margin: 0 auto;
 }
 .register {
@@ -149,6 +164,7 @@ header {
 }
 
 #reg-submit {
+	margin-top: 4em;
 	margin-left: 8em;
 }
 #submit-btn {
@@ -157,7 +173,8 @@ header {
 
 
 .withdraw p {
-	margin-left: -2em;
+	margin-top: -.25em;
+	margin-left: 3em;
 	padding-top: 1em;
 	padding-left: 1em;
 	width: 22em;
@@ -174,7 +191,7 @@ header {
 .transfer p {
 	width: 18em;
 	margin-top: -.125em;
-	margin-left: -8em;
+	margin-left: -4em;
 	padding-top:0em;
 }
 #tout-account {

@@ -17,7 +17,7 @@
 		<p>>><a href="login.html" class="back-link">返回登录</a></p>
 		<div class="register">
 			<form method="post" action="Register">
-				<div class="fields">
+				<div class="regfields">
 					<p class="row">
 						<lable for="user-name">用户名：</lable>
 						<input type="text" id="user-name" name="username" class="field-large" />

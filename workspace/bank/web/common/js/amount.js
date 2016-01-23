@@ -1,5 +1,13 @@
 ﻿window.onload = function() {
-	
+	var transfer_account_ob = document.getElementById("tout-account")
+	if (!transfer_account_ob && typeof(transfer_account_ob)!="undefined" && transfer_account_ob!=0)
+	{} else {
+		transfer_account_ob.onblur = function() {
+			removeEm(transfer_account_ob.parentNode);
+			if (transfer_account_ob.value == "")
+				displayEm(transfer_account_ob.parentNode,"请输入用户名");
+		}
+	}
 	var amount_ob = document.getElementById("out-amount");
 
 	if (!amount_ob && typeof(amount_ob)!="undefined" && amount_ob!=0)
@@ -10,18 +18,18 @@
 	var amount_parent_ob = amount_ob.parentNode;
 	amount_ob.onblur = function() {
 		var amount = amount_ob.value;
-		
+		removeEm(amount_parent_ob);
 		var regx = new RegExp("^[0-9]{0,128}(.[0-9]{1,4})?$");
 		var is_valid_amount = regx.test(amount);
 		if (!is_valid_amount) {
-			removeEm(amount_parent_ob);
-			displayEm(amount_parent_ob,"请输入大于零的合法数字");
+			displayEm(amount_parent_ob,"请输入合法金额");
 		}
 	}
 	
 	function removeEm(parent_node) {
 		var em_childs = parent_node.getElementsByTagName("em");
 		var len = em_childs.length;
+		alert(len);
 		for (var i=0; i<len; i++) {
 			parent_node.removeChild(em_childs[0]);
 		}

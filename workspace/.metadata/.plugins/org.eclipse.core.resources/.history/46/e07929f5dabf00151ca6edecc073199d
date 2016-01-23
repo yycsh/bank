@@ -1,0 +1,8 @@
+package com.bankcore.web.ajax;
+/*
+ * 验证用户名是否已被注册
+ * 若已被注册返回isregistered = true
+ */
+public class CheckName {
+
+}

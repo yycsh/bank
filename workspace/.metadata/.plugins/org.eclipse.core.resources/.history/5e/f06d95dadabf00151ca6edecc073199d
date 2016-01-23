@@ -1,0 +1,5 @@
+package com.bankcore.web.ajax;
+
+public class CheckName {
+
+}

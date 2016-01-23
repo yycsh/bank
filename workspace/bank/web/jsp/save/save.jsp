@@ -6,8 +6,7 @@
 	<meta charset="utf-8" />
 	<link rel="stylesheet" type="text/css" href="common/css/mystyle.css">
 	<title>存款</title>
-	<!--<script language="JavaScript" src="common/js/amount.js"></script>
-	-->
+	<script language="JavaScript" src="common/js/amount.js"></script>
 </head>
 
 <body>

@@ -23,7 +23,7 @@
 				if (info != null && !info.equals(""))
 					out.print("<p class=\"service\">"+ URLDecoder.decode(info,"utf-8") +"</p>");
 				%>
-				<div class="fields">
+				<div class="loginfields">
 					
 					<p class="row">
 						<lable for="stu-no"><a class="login-lable">用户名:</a></lable>
@@ -39,7 +39,7 @@
 						out.print("<p class=\"service\"><a>*</a>"+ URLDecoder.decode(erro,"utf-8") +"</p>");
 					%>
 				</div>
-				<input type="submit" value="登录" class="btn" />
+				<input type="submit" value="登录" class="logbtn" />
 			</form>
 			<p class="log-href">还没有帐号？<a href="register.html">注册</a></p>
 		</div>

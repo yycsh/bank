@@ -1,0 +1,29 @@
+package com.bankcore.web.ajax;
+
+import java.io.PrintWriter;
+
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+/*
+ * 验证用户名是否已被注册
+ * 若已被注册返回isregistered = true
+ */
+public class CheckName extends HttpServlet{
+	public void doGet(HttpServletRequest request,
+					HttpServletResponse response) {
+		//
+		String name = request.getParameter("name");
+		//
+		response.setContentType("text/xml;charset=utf-8");
+		response.setHeader("Cache-Control","no-cache");
+		PrintWriter out = response.getWriter();
+		StringBuffer results = new StringBuffer("<?xml version=\"1.0\" encoding=\"utf-8\"?>");
+		results.append("<isregistered>");
+		results.append(isregistered);
+		results.append("</isregistered>");
+		out.write(results.toString());
+		out.close();
+	}
+}

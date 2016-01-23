@@ -8,6 +8,10 @@
 			<item value="C:\Users\yycsh\Desktop\lifeGame"/>
 		</list>
 	</section>
+	<section name="WorkbenchPreferenceDialogSettings">
+		<item value="-93" key="DIALOG_Y_ORIGIN"/>
+		<item value="199" key="DIALOG_X_ORIGIN"/>
+	</section>
 	<section name="ImportExportAction">
 		<item value="org.eclipse.ui.wizards.import.FileSystem" key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID"/>
 		<list key="ImportExportPage.STORE_EXPANDED_IMPORT_CATEGORIES">

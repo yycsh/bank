@@ -61,7 +61,7 @@ public class LogIn extends HttpServlet{
 			//1.若用户名或密码有一个为空，则返回带错误信息的login.jsp页面
 			if (userName.equals("") || passWord.equals("")) {
 				request.setAttribute("erroinfo",  URLEncoder.encode("请输入用户名和密码","utf-8"));		
-				response.addCookie(rpcookie);
+				//response.addCookie(rpcookie);
 				RequestDispatcher view =
 						request.getRequestDispatcher("login.jsp");
 				try {
@@ -104,7 +104,7 @@ public class LogIn extends HttpServlet{
 							//若用户名不存在，则返回带"此用户名不存在"信息的login.jsp
 							request.setAttribute("erroinfo",  URLEncoder.encode("此用户名不存在","utf-8"));		
 						}
-						response.addCookie(rpcookie);
+						//response.addCookie(rpcookie);
 						RequestDispatcher view =
 								request.getRequestDispatcher("login.jsp");
 						view.forward(request, response);

@@ -30,7 +30,7 @@ public class IAccountDaoImpl implements IAccountDao {
 			if (result == 1)
 				return true;
 			else {
-				System.out.println(result);
+				//System.out.println(result);
 				return false;
 			}
 		} catch (SQLException | ClassNotFoundException e) {

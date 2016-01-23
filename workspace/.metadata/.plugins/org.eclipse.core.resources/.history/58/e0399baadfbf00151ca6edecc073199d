@@ -1,0 +1,11 @@
+package com.bankcore.web.ajax;
+
+import javax.servlet.http.HttpServlet;
+
+/*
+ * 验证用户名是否已被注册
+ * 若已被注册返回isregistered = true
+ */
+public class CheckName extends HttpServlet{
+
+}
